@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\checkMark.png" />
+    <None Remove="Images\information.png" />
+    <None Remove="Images\outlineWarning.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\checkMark.png" />
+    <Resource Include="Images\information.png" />
+    <Resource Include="Images\outlineWarning.png" />
+  </ItemGroup>
+
+</Project>
